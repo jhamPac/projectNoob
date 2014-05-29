@@ -4,7 +4,7 @@
         <div class="container-fluid clearfix banner">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Please fill out the form</h1>
+                    <h1>Fill out the form</h1>
                 </div>
             </div>
         </div> 
