@@ -1,0 +1,105 @@
+.homePage { 
+  
+    .zero {
+        
+    }
+    
+    .one {
+        margin: 20px 0 0 0;
+    }
+    
+    .two {
+        margin: 20px 0 0 0;  
+    }
+    
+    .three {
+        margin: 20px 0 0 0;
+    }   
+    
+    .four {
+        margin: 20px 0 0 0;
+    }
+    
+    .five {
+       margin-top: 20px; 
+    }
+    
+    .six {
+       margin-top: 20px;
+    }
+    
+    .seven {
+        background-color:#902FEB;
+        height:50px;
+    }
+    
+    .eight {
+        background-color:#B7BA2C;
+        height:50px;
+    }
+    
+    .nine {
+        background-color:#DF9F9F;
+        height:50px;
+    }
+    
+    .ten {
+        background-color:#65030D;
+        height:50px;
+    }
+    
+    .eleven {
+        background-color:#fff8e7;
+        height:50px;
+    }
+    
+    .twelve {
+        background-color:#9aceeb;
+        height:50px;
+    }
+    
+    //css for specific stuff
+    
+    .panel-heading {
+        > h1 {
+            text-align: center;
+        }
+        > h3 {
+            text-align: center;
+        }
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    .testClass {
+     color: gray;
+     text-align: justify;
+    }
+    
+    #bouncXing {
+        border: 1px solid black;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 15px;
+    }
+    
+    div {
+        > h3 {
+            margin-top: 5px;
+        }
+    }
+    
+    pre {
+        text-align: justify;
+        white-space: normal;
+    }
+    
+}
+    
+    
+    
+    

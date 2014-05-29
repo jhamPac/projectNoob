@@ -1,0 +1,18 @@
+//variables
+@import "_elements/variables";
+
+//import bootstrap
+@import "_bootstrap/bootstrap";
+
+//mixins
+
+@import "_mixins/breakpoints";
+@import "_mixins/lastwordmixins";
+
+//other sass 
+@import "_elements/global";
+@import "_elements/basic";
+@import "_elements/pane";
+@import "_elements/auth_page";
+
+

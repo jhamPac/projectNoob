@@ -1,0 +1,26 @@
+/**
+ * This combination of mixins pulled from: https://gist.github.com/peschee/5734414
+ * Note: I have modified the naming convention to my personal taste.
+ *
+ * This also includes the respondto mixin to allow multiple media queries. Use it like:
+ *
+ * .searchform { padding-left:10%; @include respondto(phone, tablet) { padding-left:0 }; }
+ */
+/**
+ * Responsive mixin. The media breakpoints are as defined
+ * in the twitter bootstrap framework:
+ *
+ * - phone
+ * - tablet
+ * - desktop
+ * - large
+ *
+ * Additional parameters for tagetting retina and non-retina
+ * devices
+ *
+ * - retina
+ * - non-retina
+ *
+ * Moreover, a specific value in px can be passed which is
+ * used to generate a max-width media query.
+ */

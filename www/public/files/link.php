@@ -1,0 +1,1 @@
+<?php echo "<a href='http://www.youtube.com' target='_blank'>Click Me</a>" ?>

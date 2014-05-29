@@ -1,0 +1,47 @@
+.psd {
+    
+    .pane {
+        background-color: $background;
+        @include custom-radius();
+        @include custom-box-shadow();
+        margin-top: 100px;
+        padding: 10px 15px;
+    }
+    
+    .pane-body {
+        margin: 0 auto;
+        width: 91%;    
+    }
+    
+    .pane-body:before,
+    .pane-body:after {
+        display: table;
+        content: " ";
+    }
+    
+    .pane-body:after {
+        clear: both;
+    }
+    
+    .pane-heading {
+        border-bottom: 1px solid $boxshadow;
+        width: 91%;
+        margin: 0 auto;
+    }
+    
+    #paginator {
+        ul {
+            li {
+                a {
+                    background-color: $background;
+                    color: black;
+                }
+            }
+            margin-left: 40%;
+            @include respondto(phone) {
+                margin-left: 20%;
+            } 
+        }  
+    } 
+}
+

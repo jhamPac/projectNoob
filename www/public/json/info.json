@@ -1,0 +1,18 @@
+{ "user" : [{
+ 
+    "name" : "John", 
+    "id" : 1, 
+    "join_date" : "january" 
+},
+{ 
+    "name" : "Ted", 
+    "id" : 2, 
+    "join_date" : "february" 
+},
+{
+    "name" : "Summer", 
+    "id" : 3, 
+    "join_date" : "march" 
+}
+
+]}
