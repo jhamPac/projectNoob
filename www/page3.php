@@ -1,4 +1,4 @@
-<?php require( realpath(dirname(_FILE_)) . '/public/includes/header.php');?>
+<?php require( __DIR__ . '/public/includes/header.php');?>
     <body>
         
         <div class="container clearfix">
@@ -27,7 +27,7 @@
             </div>
         </div>
         
-<?php require( realpath(dirname(_FILE_)) . '/public/includes/scripts_to_load.php' );?>
+<?php require( __DIR__ . '/public/includes/scripts_to_load.php' );?>
         
     </body>
 </html>
