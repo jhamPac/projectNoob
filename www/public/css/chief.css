@@ -3701,18 +3701,16 @@ body { background-color: #fafafa; font-family: "Droid Sans", Arial, sans-serif; 
 /* line 56, ../sass/_elements/_basic.scss */
 .homePage .twelve { background-color: #9aceeb; height: 50px; }
 /* line 64, ../sass/_elements/_basic.scss */
-.homePage .panel-heading > h1 { text-align: center; }
-/* line 67, ../sass/_elements/_basic.scss */
-.homePage .panel-heading > h3 { text-align: center; }
-/* line 72, ../sass/_elements/_basic.scss */
+.homePage .fly-in h1, .homePage .fly-in h3 { text-align: center; }
+/* line 70, ../sass/_elements/_basic.scss */
 .homePage a { text-decoration: none; }
-/* line 76, ../sass/_elements/_basic.scss */
+/* line 74, ../sass/_elements/_basic.scss */
 .homePage .testClass { color: gray; text-align: justify; }
-/* line 81, ../sass/_elements/_basic.scss */
+/* line 79, ../sass/_elements/_basic.scss */
 .homePage #bouncXing { border: 1px solid black; width: 50%; height: 50%; margin: 0 auto; display: block; padding: 15px; }
-/* line 91, ../sass/_elements/_basic.scss */
+/* line 89, ../sass/_elements/_basic.scss */
 .homePage div > h3 { margin-top: 5px; }
-/* line 96, ../sass/_elements/_basic.scss */
+/* line 94, ../sass/_elements/_basic.scss */
 .homePage pre { text-align: justify; white-space: normal; }
 
 /* line 3, ../sass/_elements/_pane.scss */

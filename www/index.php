@@ -31,8 +31,11 @@
                     
                     <div class="panel-heading">
                     
-                        <h1>How to Level Up</h1>
-                        <h3>A guide for Level 1 and +</h3>
+                        <div class="fly-in">
+                            <h1>How to Level Up</h1>
+                            <h3>A guide for Level 1 and +</h3>
+                        </div>
+                        
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Navigator <span class="caret"></span>
                             </button>

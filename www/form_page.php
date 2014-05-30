@@ -1,6 +1,6 @@
 <?php require( realpath(dirname(_FILE_)) . '/public/includes/header.php' );?>
     <body>
-    
+        
         <div class="container-fluid clearfix banner">
             <div class="row">
                 <div class="col-md-12">
