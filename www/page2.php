@@ -10,11 +10,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                             
-                                    <form action="index.php" method="get">
-                                    
-                                       <button type="submit" class="btn btn-default">Home</button>
-                                        
-                                    </form>
+                                       <a href="index.php" target="_self"><button type="submit" class="btn btn-default">Home</button></a>        
                             
                                 </div>
                             </div>
