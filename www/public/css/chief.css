@@ -3674,43 +3674,19 @@ th.hidden-lg, td.hidden-lg { display: table-cell !important; }
 /** This combination of mixins pulled from: https://gist.github.com/peschee/5734414 Note: I have modified the naming convention to my personal taste.  This also includes the respondto mixin to allow multiple media queries. Use it like:  .searchform { padding-left:10%; @include respondto(phone, tablet) { padding-left:0 }; } */
 /** Responsive mixin. The media breakpoints are as defined in the twitter bootstrap framework:  - phone - tablet - desktop - large  Additional parameters for tagetting retina and non-retina devices  - retina - non-retina  Moreover, a specific value in px can be passed which is used to generate a max-width media query. */
 /* line 1, ../sass/_elements/_global.scss */
-body { background-color: #fafafa; font-family: "Droid Sans", Arial, sans-serif; }
+body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; }
 
-/* line 7, ../sass/_elements/_basic.scss */
-.homePage .one { margin: 20px 0 0 0; }
-/* line 11, ../sass/_elements/_basic.scss */
-.homePage .two { margin: 20px 0 0 0; }
-/* line 15, ../sass/_elements/_basic.scss */
-.homePage .three { margin: 20px 0 0 0; }
-/* line 19, ../sass/_elements/_basic.scss */
-.homePage .four { margin: 20px 0 0 0; }
-/* line 23, ../sass/_elements/_basic.scss */
-.homePage .five { margin-top: 20px; }
-/* line 27, ../sass/_elements/_basic.scss */
-.homePage .six { margin-top: 20px; }
-/* line 31, ../sass/_elements/_basic.scss */
-.homePage .seven { background-color: #902FEB; height: 50px; }
-/* line 36, ../sass/_elements/_basic.scss */
-.homePage .eight { background-color: #B7BA2C; height: 50px; }
-/* line 41, ../sass/_elements/_basic.scss */
-.homePage .nine { background-color: #DF9F9F; height: 50px; }
-/* line 46, ../sass/_elements/_basic.scss */
-.homePage .ten { background-color: #65030D; height: 50px; }
-/* line 51, ../sass/_elements/_basic.scss */
-.homePage .eleven { background-color: #fff8e7; height: 50px; }
-/* line 56, ../sass/_elements/_basic.scss */
-.homePage .twelve { background-color: #9aceeb; height: 50px; }
-/* line 64, ../sass/_elements/_basic.scss */
+/* line 4, ../sass/_elements/_homepage.scss */
 .homePage .fly-in h1, .homePage .fly-in h3 { text-align: center; }
-/* line 70, ../sass/_elements/_basic.scss */
+/* line 10, ../sass/_elements/_homepage.scss */
 .homePage a { text-decoration: none; }
-/* line 74, ../sass/_elements/_basic.scss */
+/* line 14, ../sass/_elements/_homepage.scss */
 .homePage .testClass { color: gray; text-align: justify; }
-/* line 79, ../sass/_elements/_basic.scss */
+/* line 19, ../sass/_elements/_homepage.scss */
 .homePage #bouncXing { border: 1px solid black; width: 50%; height: 50%; margin: 0 auto; display: block; padding: 15px; }
-/* line 89, ../sass/_elements/_basic.scss */
+/* line 29, ../sass/_elements/_homepage.scss */
 .homePage div > h3 { margin-top: 5px; }
-/* line 94, ../sass/_elements/_basic.scss */
+/* line 34, ../sass/_elements/_homepage.scss */
 .homePage pre { text-align: justify; white-space: normal; }
 
 /* line 3, ../sass/_elements/_pane.scss */
@@ -3730,18 +3706,38 @@ body { background-color: #fafafa; font-family: "Droid Sans", Arial, sans-serif; 
 @media (max-width: 480px) { /* line 33, ../sass/_elements/_pane.scss */
   .psd #paginator ul { margin-left: 20%; } }
 
-/* line 1, ../sass/_elements/_auth_page.scss */
+/* line 1, ../sass/_elements/_formpage.scss */
 .banner { background: #c9a0dc; border-bottom: 3px solid #a968c7; height: 300px; }
-/* line 7, ../sass/_elements/_auth_page.scss */
-.banner h1, .banner h1, .banner h3, .banner h4, .banner h5, .banner h6 { font-family: "Droid Sans", Arial, sans-serif; }
-/* line 11, ../sass/_elements/_auth_page.scss */
-.banner > div { margin-top: 100px; text-align: center; opacity: 0.5; transition: background-color,color,opacity,height, 0.8s ease; }
-/* line 17, ../sass/_elements/_auth_page.scss */
-.banner > div:hover { background-color: #a968c7; color: floralwhite; opacity: 1; }
+/* line 7, ../sass/_elements/_formpage.scss */
+.banner h1, .banner h1, .banner h3, .banner h4, .banner h5, .banner h6 { font-family: "Open Sans", Arial, sans-serif; }
+/* line 11, ../sass/_elements/_formpage.scss */
+.banner div:first-child { margin-top: 100px; text-align: center; opacity: 0.5; transition: background-color,color,opacity,height, 0.8s ease; }
+/* line 17, ../sass/_elements/_formpage.scss */
+.banner div:first-child:hover { background-color: #a968c7; color: floralwhite; opacity: 1; }
+/* line 24, ../sass/_elements/_formpage.scss */
+.banner div:last-child { margin-top: 75px; padding-left: 35px; /* Landscape phones and down */ }
+@media (max-width: 480px) { /* line 24, ../sass/_elements/_formpage.scss */
+  .banner div:last-child { margin-top: 115px; } }
 
-/* line 26, ../sass/_elements/_auth_page.scss */
-.auth { background-color: #eff8ea; }
-/* line 30, ../sass/_elements/_auth_page.scss */
-.auth #columnA { border-bottom: 2px solid black; padding-bottom: 2%; }
-/* line 34, ../sass/_elements/_auth_page.scss */
-.auth #columnA form { margin: 2% auto 0; max-width: 600px; }
+/* line 33, ../sass/_elements/_formpage.scss */
+.form-wrapper { background-color: #eff8ea; }
+/* line 37, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch { margin: 0 auto; max-width: 500px; }
+/* line 41, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch h2 { text-align: center; }
+/* line 45, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch header { background-color: #a968c7; color: white; }
+/* line 50, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch section { margin-left: 95px; }
+/* line 54, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch label { display: block; margin-top: 20px; letter-spacing: 2px; }
+/* line 60, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input, .form-wrapper #get-in-touch textarea { max-width: 300px; background: #efefef; border: 1px solid #dedede; padding: 10px; margin-top: 3px; font-size: 0.9em; color: #3a3a3a; border-radius: 5px; }
+/* line 69, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input:focus, .form-wrapper #get-in-touch textarea:focus { border: 1px solid #97d63b; }
+/* line 74, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch textarea { height: 200px; display: block; margin-bottom: 25px; }
+/* line 81, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input#submit { height: 38px; cursor: pointer; transition: background-color, opacity, 0.8s ease; }
+/* line 85, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input#submit:hover { opacity: 0.7; background-color: #a968c7; }

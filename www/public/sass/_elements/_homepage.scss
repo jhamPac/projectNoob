@@ -1,0 +1,43 @@
+.homePage { 
+    
+    .fly-in {
+        h1,h3 {
+            text-align: center;
+        }
+        
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    .testClass {
+     color: gray;
+     text-align: justify;
+    }
+    
+    #bouncXing {
+        border: 1px solid black;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 15px;
+    }
+    
+    div {
+        > h3 {
+            margin-top: 5px;
+        }
+    }
+    
+    pre {
+        text-align: justify;
+        white-space: normal;
+    }
+    
+}
+    
+    
+    
+    

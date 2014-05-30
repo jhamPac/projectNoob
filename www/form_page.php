@@ -1,53 +1,68 @@
+<?php if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    
+    header('Location: index.php');
+    exit();
+    
+} ?>
+
 <?php require( realpath(dirname(_FILE_)) . '/public/includes/header.php' );?>
     <body>
         
-        <div class="container-fluid clearfix banner">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Fill out the form</h1>
+        <div class="container-fluid clearfix">
+            <div class="row banner">
+            
+                <div class="col-md-12 col-sm-12">
+                    <h1>Php Form Handling</h1>
                 </div>
+                
+                <div class="col-md-4 col-sm-4">
+                    <form action="index.php" method="get">
+                        <button type="submit" class="btn btn-default">Home</button>
+                    </form>
+                </div>
+                
+                
+                
             </div>
         </div> 
         
         <div class="container-fluid clearfix">
-            <div class="row auth">
-                <div class="col-md-12">
+            <div class="row form-wrapper">
+                <div class="col-md-12 col-sm-12">
                 
-                    <div id="columnA">     
+                    <div id="get-in-touch">     
                         
-                        <form id="registration_form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">  
-                            <label>Full name<span class="note">*</span>:</label>  
-                            <input type="text" name="full_name" placeholder="FirstName LastName" autofocus="autofocus">     
-                            <label>Email address<span class="note">*</span>:</label>  
-                            <input type="text" name="email_addr">  
-                            <label>Select Tour Package<span class="note">*</span>:</label>      
-                            <select name="package">  
-                            <option value="Goa">Goa</options>  
-                            <option value="Kashmir">Kashmir</options>  
-                            <option value="Rajasthan">Rajasthan</options>  
-                            </select>  
-                            <label>Arrival date<span class="note">*</span>:</label>  
-                            <input type="text" name="arv_dt" placeholder="m/d/y">  
-                            <label>Number of persons<span class="note">*</span>:</label>  
-                            <input type="text" name="persons">  
-                            <label>What would you want to avail?<span class="note">*</span></label>    
-                            Boarding<input type="checkbox" name="facilities[]" value="boarding">  
-                            Fooding<input type="checkbox" name="facilities[]" value="fooding">  
-                            Sight seeing<input type="checkbox" name="facilities[]" value="sightseeing">  
-                            <label>Discout Coupon code:</label>  
-                            <input type="text" name="dis_code">  
-                            <label>Terms and conditions<span class="note">*</span></label>  
-                            <input type="radio" name="tnc" value="agree">I agree<br>  
-                            <input type="radio" name="tnc" value="disagree">I disagree<br>  
-                            <button type="submit" class="btn btn-large btn-success" name="submit">Complete reservation</button>  
-                        </form> 
-
+                        <header class="contact">
+                            <h2>Contact Me</header>
+                        </header>
+                        
+                        <section class="contact">
+                            
+                            <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+                                <label>Name</label>
+                                <input name="name" placeholder="Type Here" autocomplete="off">
+                                        
+                                <label>Email</label>
+                                <input name="email" type="email" placeholder="Type Here" autocomplete="off">
+                                        
+                                <label>Message</label>
+                                <textarea name="message" placeholder="Type Here"></textarea>
+                                        
+                                <input id="submit" name="submit" type="submit" value="Submit">
+                            </form>
+                            
+                        </section>
+                        
+                        <footer class="contact">
+                            
+                        </footer>
+                        
                     </div>
                     
                     
                     <div class="col-md-12">
                         
-                        
+                
                         
                     </div>
                     

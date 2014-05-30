@@ -42,7 +42,7 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="page2.php" target="_self">Page 2</a></li>
                                 <li><a href="page3.php" target="_self">Page 3</a></li>
-                                <li><a href="form_page.php" target="self">Form Page</a></li>     
+                                <li><a href="form_page.php" target="_self">Form Page</a></li>     
                             </ul>
                         </div>
                         
@@ -224,51 +224,6 @@
                                 }
                                 </code></pre>
                                 
-                        </div>
-                        
-                        <div class="col-md-12 six">
-                            
-                            <span>April 23 2014</span>
-                            <h3>Forms Submitting with PHP</h3>
-                            
-                            <form id="formTest" action="index.php" method="post">
-                                
-                                <label>What is your favorite Movie?&nbsp;
-                                <input type="text" name="formMovie" value="<?php echo @$_POST['formMovie'];?>">
-                                </label>
-                                <br>
-                                <label>What is your name?&nbsp;
-                                <input type="text" name="formName" value="<?php echo @$_POST['formName'];?>">
-                                </label>
-                                <br>
-                                <input type="submit" name="formSubmit" value="Submit">
-                                
-                            </form>
-                            
-                            <?php 
-                            
-                                $movie = "";
-                                $name ="";
-                                
-                                if ( $_POST['formSubmit'] == "Submit") {
-                                    $movie = $_POST['formMovie'];
-                                    $name = $_POST['formName'];
-                                }
-                                
-                                echo $movie . "<br>";
-                                echo $name;
-                                
-                                $array = [ 1, 2, 3, 4, 5 ];
-                                
-                                $sum = 0;
-                                
-                                foreach ( $array as $value ) {
-                                    $sum += $value;
-                                }
-                                
-                                echo $sum;
-                                
-                            ?>
                         </div>
                         
                     </div> <!-- panel body end -->
