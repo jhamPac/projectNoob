@@ -6,7 +6,7 @@
 } ?>
 
 <?php require( __DIR__ . '/public/includes/header.php' );?>
-
+<?php  phpinfo(); ?>
     <body>
         
         <div class="container-fluid clearfix">
