@@ -3,12 +3,14 @@
     
          <div class="container clearfix">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12">
             
                     <div class="panel panel-default">
                         
                         <div class="panel-heading">
-                            <h1>Hello</h1>
+                        
+                            <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                            
                         </div>
                         
                         <div class="panel-body">

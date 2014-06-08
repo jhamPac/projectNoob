@@ -8,9 +8,7 @@
                         
                         <div class="panel-heading">
                             
-                            <form action="index.php" method="get">
-                                <button type="submit" class="btn btn-default">Home</button>    
-                            </form>
+                            <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
                             
                         </div>
                         
