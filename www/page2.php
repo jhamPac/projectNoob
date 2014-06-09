@@ -16,18 +16,34 @@
                         <div class="panel-body">
                             
                             <div class="upload-form">
+                            
+                                <form id="file-loader" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data"></form>
                                 
                                 <table class="table table-bordered">
                                     
                                     <tr>
                                         <td>
-                                        <label for="uploader">Upload File</label>
+                                            <span>Upload</span>
                                         </td>
-                                        <td><input type="file" id="uploader" name="input-upload">
+                                        <td><input type="text" form="file-loader" name="input-upload">
                                         </td>
                                     </tr>
                                     
+                                    <tr>
+                                        <td>
+                                            <span>Submit when done</span>
+                                        </td>
+                                        
+                                        <td>
+                                            <button type="submit" class="btn btn-success" form="file-loader">Submit</button>
+                                        </td>
+                                        
+                                        
+                                    </tr>
+                                    
                                 </table>
+                                
+                                <?php echo $_POST['input-upload']; ?>
                                 
                             </div>
                             
