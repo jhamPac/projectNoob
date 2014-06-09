@@ -15,6 +15,22 @@
                         
                         <div class="panel-body">
                             
+                            <div class="upload-form">
+                                
+                                <table class="table table-bordered">
+                                    
+                                    <tr>
+                                        <td>
+                                        <label for="uploader">Upload File</label>
+                                        </td>
+                                        <td><input type="file" id="uploader" name="input-upload">
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                
+                            </div>
+                            
                         </div>
                         
                         <div class="panel-footer">
