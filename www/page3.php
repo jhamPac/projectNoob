@@ -3,19 +3,29 @@
         
         <div class="container clearfix">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mysql">
                     <div class="panel panel-default">
                         
                         <div class="panel-heading">
-                            
+                        
+                            <h1>Php and Mysql</h1>    
                             <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
                             
                         </div>
                         
                         <div class="panel-body">
-                        
-                            
-                            
+                        <?php
+                          
+                          try {
+                          $db = new PDO('mysql:host=localhost;dbname=projectx_db', 'root', 'password');
+                          
+                          var_dump($db);  
+                          } catch ( Exception $e ) { 
+                          echo "Could not link to mysql database.";
+                          exit();
+                          }
+                           
+                        ?>
                         </div>
                         
                         <div class="panel-footer">

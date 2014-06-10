@@ -200,6 +200,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/www\/public\/includes\/nav_button.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/public\/includes\/nav_button.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/www\/public\/includes\/scripts_to_load.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -376,6 +385,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/www\/public\/sass\/_elements\/_homepage.scss",
 		"outputAbbreviatedPath": "\/www\/public\/sass\/css\/_homepage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/www\/public\/sass\/_elements\/_mysqlpage.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/public\/sass\/_elements\/_mysqlpage.scss",
+		"outputAbbreviatedPath": "\/www\/public\/sass\/css\/_mysqlpage.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,

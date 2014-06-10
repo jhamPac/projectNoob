@@ -43,8 +43,6 @@
                                     
                                 </table>
                                 
-                                <?php echo $_POST['input-upload']; ?>
-                                
                             </div>
                             
                         </div>
