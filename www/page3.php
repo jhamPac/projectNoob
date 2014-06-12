@@ -27,9 +27,11 @@
                           }
                           
                           try{
-                              
+                              $results = $db->query("SELECT post_date, post_content FROM wp_posts");
+                              echo "Our query ran ok.";
                           } catch( Exception $e ) {
-                              
+                              echo "Data could not be retrieved, sorry.";
+                              exit();
                           }
                           
                           
