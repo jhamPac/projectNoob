@@ -18,12 +18,21 @@
                           
                           try {
                           $db = new PDO('mysql:host=localhost;dbname=projectx_db', 'root', 'password');
-                          
-                          var_dump($db);  
+                          $db->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+                          $db->exec("SET NAMES 'utf8'" );
+                            
                           } catch ( Exception $e ) { 
                           echo "Could not link to mysql database.";
                           exit();
                           }
+                          
+                          try{
+                              
+                          } catch( Exception $e ) {
+                              
+                          }
+                          
+                          
                            
                         ?>
                         </div>
