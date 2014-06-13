@@ -16,15 +16,8 @@
                         <div class="panel-body">
                         <?php
                           
-                          try {
-                          $db = new PDO('mysql:host=localhost;dbname=projectx_db', 'root', 'password');
-                          $db->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-                          $db->exec("SET NAMES 'utf8'" );
-                            
-                          } catch ( Exception $e ) { 
-                          echo "Could not link to mysql database.";
-                          exit();
-                          }
+                          //file that connects to mysql
+                          require_once( __DIR__ . '/public/includes/database.php' );
                           
                           try{
                               $results = $db->query("SELECT post_date, post_content FROM wp_posts");
@@ -34,7 +27,7 @@
                           }
                           
                           echo "<pre>";
-                          var_dump( $results->fetchall( PDO::FETCH_ASSOC) );
+                          var_dump( $results->fetchall( PDO::FETCH_BOTH) );
                           echo "</pre>";
                           
                           
