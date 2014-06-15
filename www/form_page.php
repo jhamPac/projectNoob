@@ -6,8 +6,6 @@
 } ?>
 
 <?php require( __DIR__ . '/public/includes/header.php' );?>
-
-    <body>
         
         <div class="container-fluid clearfix">
             <div class="row banner">
@@ -66,7 +64,5 @@
             </div>
         </div>  
        
-<?php require( __DIR__ . '/public/includes/scripts_to_load.php' );?>
+<?php require( __DIR__ . '/public/includes/footer.php' );?>
         
-    </body>
-</html>

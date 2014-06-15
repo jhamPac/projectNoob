@@ -1,5 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
-    <body>
+<?php require_once( __DIR__ . '/public/includes/header.php');?>
     
          <div class="container clearfix">
             <div class="row">
@@ -8,7 +7,8 @@
                     <div class="panel panel-default">
                         
                         <div class="panel-heading">
-                        
+                            
+                            <h1>Up Load with Php</h1>
                             <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
                             
                         </div>
@@ -57,7 +57,5 @@
             </div>
         </div>
                 
-<?php require( __DIR__ . '/public/includes/scripts_to_load.php' );?>
+<?php require_once( __DIR__ . '/public/includes/footer.php' );?>
         
-    </body>
-</html>

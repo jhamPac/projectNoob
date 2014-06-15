@@ -1,5 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
-    <body>
+<?php require_once( __DIR__ . '/public/includes/header.php');?>
         
         <div class="container clearfix">
             <div class="row">
@@ -45,7 +44,5 @@
             </div>
         </div>
         
-<?php require( __DIR__ . '/public/includes/scripts_to_load.php' );?>
+<?php require_once( __DIR__ . '/public/includes/footer.php' );?>
         
-    </body>
-</html>
