@@ -1,5 +1,6 @@
 <?php
 
+//file with database credentials
 require_once( 'config.php' );
 
 try {
