@@ -19,7 +19,7 @@
                           require_once( __DIR__ . '/public/includes/database.php' );
                           
                           try{
-                              $results = $db->query("SELECT post_date, post_content FROM wp_posts");
+                              $results = $db->query("SELECT ID FROM wp_posts");
                           } catch( Exception $e ) {
                               echo "Data could not be retrieved, sorry.";
                               exit();
@@ -29,8 +29,7 @@
                           var_dump( $results->fetchall( PDO::FETCH_BOTH) );
                           echo "</pre>";
                           
-                          
-                          
+                                
                            
                         ?>
                         </div>
