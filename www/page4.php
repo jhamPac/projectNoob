@@ -98,7 +98,13 @@ toyota.stop();
                             
                         </div>
                         
-                    </div>
+                        <div class="col-xs-12 php-ex">
+                            
+                            <h3>The Following are just random Php excersies</h3>
+                            
+                        </div>
+                        
+                    </div> <!--panel body end -->
                     
                     <div class="panel-footer">
                         
