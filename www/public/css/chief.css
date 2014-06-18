@@ -3742,12 +3742,3 @@ body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; p
 .form-wrapper #get-in-touch input#submit { height: 38px; cursor: pointer; transition: background-color, opacity, 0.8s ease; }
 /* line 85, ../sass/_elements/_formpage.scss */
 .form-wrapper #get-in-touch input#submit:hover { opacity: 0.7; background-color: #a968c7; }
-
-/* line 1, ../sass/_elements/_oop.scss */
-.oop { /*********************************************
-
-Section where php excerises start
-
-*********************************************/ }
-/* line 10, ../sass/_elements/_oop.scss */
-.oop .php-ex h3 { text-align: center; }
