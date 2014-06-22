@@ -14,7 +14,7 @@
                     <h1>Php Form Handling</h1>
                 </div>
                 
-                <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                <?php require( __DIR__ . '/public/includes/nav_button.php' ); ?>
             
                 
             </div>
