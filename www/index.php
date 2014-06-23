@@ -36,7 +36,7 @@
                             <h3>A guide for Level 1 and +</h3>
                         </div>
                         
-                        <?php require_once( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                        <?php require( __DIR__ . '/public/includes/nav_button.php' ); ?>
                         
                     </div>
                     
