@@ -3742,3 +3742,16 @@ body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; p
 .form-wrapper #get-in-touch input#submit { height: 38px; cursor: pointer; transition: background-color, opacity, 0.8s ease; }
 /* line 85, ../sass/_elements/_formpage.scss */
 .form-wrapper #get-in-touch input#submit:hover { opacity: 0.7; background-color: #a968c7; }
+
+/* line 2, ../sass/_elements/_error.scss */
+.error #fof { display: block; width: 100%; line-height: 1.6em; text-align: center; }
+/* line 3, ../sass/_elements/_error.scss */
+.error #fof h1 { font-size: 60px; }
+/* line 4, ../sass/_elements/_error.scss */
+.error #fof img { margin-bottom: 25px; }
+/* line 5, ../sass/_elements/_error.scss */
+.error #fof p { display: block; margin: 0 0 25px 0; padding: 0; font-size: 16px; }
+/* line 6, ../sass/_elements/_error.scss */
+.error #fof #respond input { width: 200px; padding: 5px; border: 1px solid #CCCCCC; }
+/* line 7, ../sass/_elements/_error.scss */
+.error #fof #respond #submit { width: auto; }

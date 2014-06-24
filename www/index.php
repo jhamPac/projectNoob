@@ -10,10 +10,10 @@
 
     <title>Home Page</title>
     
-    <! favicon >
+    <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-    <! CSS >
+    <!-- CSS -->
     <link href="/public/css/chief.css" rel="stylesheet" type="text/css">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -95,7 +95,7 @@
                                 $timestamp = $date->format('m/d/Y H:i:s');<br>
                                 echo $timestamp<br>
                                <pre> This grabs the current time and then displays it. Now I have to figure out how to keep it there permanently because every time I refresh it runs the get date function again grabbing the current date. I want the date of the first time the function was ran and not the date of the refresh.</pre> 
-                            </p>
+                            
                             
                         </div>
                         
@@ -229,10 +229,10 @@
         </div>
 
     
-<! Scripts >
+<!-- Scripts -->
 <script src="/public/js/jQuery.js" type="text/javascript"></script> 
 <script src="/public/js/min/central-ck.js" type="text/javascript"></script> 
-<! order matters >
+<!-- order matters -->
 
     </body>
 </html>
