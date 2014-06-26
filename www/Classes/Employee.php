@@ -1,8 +1,8 @@
-<?php namespace PersonClass\EmployeeClass; 
-include_once( 'person.php' );
+<?php  
+include_once( 'Person.php' );
 
 
-class employee extends \PersonClass\person {
+class Employee extends Person {
     
     function __contruct( $employee_name = "", $htf = "" ) {
         $this->set_name( $employee_name );

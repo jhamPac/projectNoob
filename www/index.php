@@ -137,25 +137,14 @@
                             
                             <span>April 13 2014</span>
                             <h3>PHP OOP</h3>
-                            <?php include_once( __DIR__ . '/public/classes/employee.php');
-                                                        
-                            // Alias for the name spaces
-                            use PersonClass\person as P;
-                            use PersonClass\EmployeeClass\employee as E;
+                            <!-- include the autoloader -->
+                            <?php include_once( __DIR__ . '/Classes/Autoloader.php');
                             
-                            //or as
-                            /*
-                                use PersonClass as P
-                                use PersonClass\EmployeeClass as E
-                                
-                                then
-                                
-                                $blah = new P\person();
-                                $bloh = new E\employee();
-                            */
-                                  
-                            $user1 = new P("Buzz", 6);
-                            $employ1 = new E( "BoyMan", 5 );
+                            use Paid\Slave as S;
+                                                                                   
+                            $user1   = new Person("Buzz", 6);
+                            $employ1 = new Employee( "BoyMan", 5 );
+                            $slave   = new S('You', 8);
                             echo $user1->get_name();
                             echo "<br>";
                             echo $employ1->get_name() . " " . $employ1->get_height();

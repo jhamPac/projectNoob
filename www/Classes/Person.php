@@ -1,6 +1,6 @@
-<?php namespace PersonClass;
+<?php 
 
-class person {
+class Person {
     
     public $name;
     public $height;
