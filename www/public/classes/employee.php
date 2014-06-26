@@ -1,4 +1,4 @@
-<?php namespace EmployeeClass; 
+<?php namespace PersonClass\EmployeeClass; 
 include_once( 'person.php' );
 
 

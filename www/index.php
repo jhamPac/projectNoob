@@ -138,9 +138,24 @@
                             <span>April 13 2014</span>
                             <h3>PHP OOP</h3>
                             <?php include_once( __DIR__ . '/public/classes/employee.php');
+                                                        
+                            // Alias for the name spaces
+                            use PersonClass\person as P;
+                            use PersonClass\EmployeeClass\employee as E;
+                            
+                            //or as
+                            /*
+                                use PersonClass as P
+                                use PersonClass\EmployeeClass as E
+                                
+                                then
+                                
+                                $blah = new P\person();
+                                $bloh = new E\employee();
+                            */
                                   
-                            $user1 = new PersonClass\person("Buzz", 6);
-                            $employ1 = new EmployeeClass\employee( "BoyMan", 5 );
+                            $user1 = new P("Buzz", 6);
+                            $employ1 = new E( "BoyMan", 5 );
                             echo $user1->get_name();
                             echo "<br>";
                             echo $employ1->get_name() . " " . $employ1->get_height();
@@ -149,6 +164,7 @@
                             echo $employ1->get_height();
                             echo "<br>";
                             ?>
+
                             <p>Above are the results of these commands along with the class. Also I used <a href="http://formatmysourcecode.blogspot.com/" target="_blank">Format My Source Code </a>for the blocks of code. This tut about PHP <a href="http://www.killerphp.com/tutorials/object-oriented-php/" target="_blank">OPP </a>is what I used to learn with.</p>
                             <pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>&lt;?php require($_SERVER['DOCUMENT_ROOT'] . '/public/files/class_lib.php');
                             
@@ -237,7 +253,7 @@
                               }
                               
                               try {
-                                  $sum = adder(-5);
+                                  $sum = adder(5);
                                   echo $sum;
                               }
                               
@@ -246,9 +262,9 @@
                                   echo $e->getTraceAsString();
                               }
                               
-                              //or you can do it like this
+                              //or you can do it like this just add a negative number to see the exception
                               
-                              $new_sum = adder(-10);
+                              $new_sum = adder(10);
                               echo $new_sum;
                                 
                             ?>
