@@ -42,7 +42,7 @@
                     
                     <div class="panel-body">
                     
-                        <div class="col-md-12 zero">
+                        <div class="col-xs-12 zero">
                             
                             <span>April 9 2014</span>
                             <h3>jQuery/javascript</h3>
@@ -51,7 +51,7 @@
                             
                         </div>
                         
-                        <div class="col-md-12 one">
+                        <div class="col-xs-12 one">
                         
                             <span>April 10 2014</span>
                             <h3>jQuery/javascritpt</h3>
@@ -60,7 +60,7 @@
                             
                         </div>
                         
-                        <div class="col-md-12 two">
+                        <div class="col-xs-12 two">
                             
                             <span>April 12 2014</span>
                             <h3>PHP Level 1</h3>
@@ -85,7 +85,7 @@
                                                          
                         </div>
                         
-                        <div class="col-md-12 three">
+                        <div class="col-xs-12 three">
                             
                             <span>April 12 2014</span>
                             <h3>PHP Level 2</h3>
@@ -99,7 +99,7 @@
                             
                         </div>
                         
-                        <div class="col-md-12 four">
+                        <div class="col-xs-12 four">
                             
                             <span>April 12 2014</span>
                             <h3>PHP Level 3</h3>
@@ -133,7 +133,7 @@
                             
                         </div>
                         
-                        <div class="col-md-12 five">
+                        <div class="col-xs-12 five">
                             
                             <span>April 13 2014</span>
                             <h3>PHP OOP</h3>
@@ -216,6 +216,41 @@
                                 }
                                 </code></pre>
                                 
+                        </div>
+                        
+                        <div class="col-xs-12">
+                            
+                            <span>June 26 2014</span>
+                            <h3>Exception Test</h3>
+                            <?php 
+                                
+                              function adder($x, $y = 5) {
+                                  
+                                  if( $x < 0 ) {
+                                      throw new Exception('No negative numbers allowed');
+                                  }
+                                  
+                                  else {
+                                      return $x + $y;
+                                  }
+                              }
+                              
+                              try {
+                                  $sum = adder(-5);
+                                  echo $sum;
+                              }
+                              
+                              catch( Exception $e ) {
+                                  echo $e->getMessage();
+                                  echo $e->getTraceAsString();
+                              }
+                              
+                              //or you can do it like this
+                              
+                              $new_sum = adder(-10);
+                              echo $new_sum;
+                                
+                            ?>
                         </div>
                         
                     </div> <!-- panel body end -->
