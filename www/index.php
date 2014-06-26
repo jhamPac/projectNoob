@@ -65,7 +65,7 @@
                             <span>April 12 2014</span>
                             <h3>PHP Level 1</h3>
                             <p>This really helps with understanding php:<br> <a href='http://stackoverflow.com/questions/3738572/how-to-include-file-from-another-directory' target='_blank'>$_SEVER[ 'DOCUMENT_ROOT' ]</a></p>
-                            <?php require($_SERVER['DOCUMENT_ROOT'] . '/public/files/link.php'); ?> 
+                            <?php require($_SERVER['DOCUMENT_ROOT'] . '/public/includes/link.php'); ?> 
                             <?php 
                                 
                                 $_HOEBAG = "Used require to place this click me"; //created my own superglobal
@@ -137,9 +137,10 @@
                             
                             <span>April 13 2014</span>
                             <h3>PHP OOP</h3>
-                            <?php require($_SERVER['DOCUMENT_ROOT'] . '/public/files/class_person.php');
-                            $user1 = new person("Buzz", 6);
-                            $employ1 = new employee( "BoyMan", 5 );
+                            <?php include_once( __DIR__ . '/public/classes/employee.php');
+                                  
+                            $user1 = new PersonClass\person("Buzz", 6);
+                            $employ1 = new EmployeeClass\employee( "BoyMan", 5 );
                             echo $user1->get_name();
                             echo "<br>";
                             echo $employ1->get_name() . " " . $employ1->get_height();
