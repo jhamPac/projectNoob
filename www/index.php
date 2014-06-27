@@ -62,7 +62,7 @@
                         
                         <div class="col-xs-12 two">
                             
-                            <span>April 12 2014</span>
+                            <span><?php $date = new DateTime('April 10, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>PHP Level 1</h3>
                             <p>This really helps with understanding php:<br> <a href='http://stackoverflow.com/questions/3738572/how-to-include-file-from-another-directory' target='_blank'>$_SEVER[ 'DOCUMENT_ROOT' ]</a></p>
                             <?php require($_SERVER['DOCUMENT_ROOT'] . '/public/includes/link.php'); ?> 
@@ -78,16 +78,16 @@
                                 if ( $where == $test ) { //test whether another variable matches with our document root variable if so do something
                                     echo "Early bird gets the worm!!";
                                 }
-                                echo "<br>";
-                                echo $_SERVER['SERVER_PORT'];
-                                 
+                                echo $_SERVER['SERVER_PORT'];  
                             ?>
+                            <br>
+                            <br>
                                                          
                         </div>
                         
                         <div class="col-xs-12 three">
                             
-                            <span>April 12 2014</span>
+                            <span><?php $date = new DateTime('April 12, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>PHP Level 2</h3>
                             <p><strong><a href='http://stackoverflow.com/questions/1724511/how-to-check-where-apache-is-looking-for-a-php-ini-file' target='_blank'>phpinfo();</a></strong>&nbsp;is really helpful<br>
                                 date_default_timezone_set('UTC');<br>
@@ -101,7 +101,7 @@
                         
                         <div class="col-xs-12 four">
                             
-                            <span>April 12 2014</span>
+                            <span><?php $date = new DateTime('April 12, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>PHP Level 3</h3>
                             <?php 
                                 $salaries["Bob"] = 2000;
@@ -135,16 +135,16 @@
                         
                         <div class="col-xs-12 five">
                             
-                            <span>April 13 2014</span>
+                            <span><?php $date = new DateTime('April 13, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>PHP OOP</h3>
                             <!-- include the autoloader -->
                             <?php include_once( __DIR__ . '/Classes/Autoloader.php');
                             
-                            use Paid\Slave as S;
+                            use Paid\Slave as Slave;
                                                                                    
                             $user1   = new Person("Buzz", 6);
                             $employ1 = new Employee( "BoyMan", 5 );
-                            $slave   = new S('You', 8);
+                            $slave   = new Slave('You', 8);
                             echo $user1->get_name();
                             echo "<br>";
                             echo $employ1->get_name() . " " . $employ1->get_height();
@@ -226,7 +226,7 @@
                         
                         <div class="col-xs-12">
                             
-                            <span>June 26 2014</span>
+                            <span><?php $date = new DateTime('June 26, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>Exception Test</h3>
                             <?php 
                                 
