@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <title>Home Page</title>
-    
-    <!-- favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-    <!-- CSS -->
-    <link href="/public/css/chief.css" rel="stylesheet" type="text/css">
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  
-    <body>
+<?php require( __DIR__ . '/public/includes/header.php');?>
     
         <div class="container clearfix">
             <div class="row homePage">
@@ -269,11 +244,4 @@
             </div>
         </div>
 
-    
-<!-- Scripts -->
-<script src="/public/js/jQuery.js" type="text/javascript"></script> 
-<script src="/public/js/min/central-ck.js" type="text/javascript"></script> 
-<!-- order matters -->
-
-    </body>
-</html>
+<?php require( __DIR__ . '/public/includes/footer.php' );?>

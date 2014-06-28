@@ -3712,7 +3712,7 @@ body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; p
 /* line 7, ../sass/_elements/_formpage.scss */
 .banner h1, .banner h1, .banner h3, .banner h4, .banner h5, .banner h6 { font-family: "Open Sans", Arial, sans-serif; }
 /* line 11, ../sass/_elements/_formpage.scss */
-.banner div:first-child { margin-top: 100px; text-align: center; opacity: 0.5; transition: background-color,color,opacity,height, 0.8s ease; }
+.banner div:first-child { margin-top: 100px; opacity: 0.5; text-align: center; transition: background-color,color,opacity,height, 0.8s ease; }
 /* line 17, ../sass/_elements/_formpage.scss */
 .banner div:first-child:hover { background-color: #a968c7; color: floralwhite; opacity: 1; }
 /* line 24, ../sass/_elements/_formpage.scss */
@@ -3731,17 +3731,17 @@ body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; p
 /* line 50, ../sass/_elements/_formpage.scss */
 .form-wrapper #get-in-touch section { margin-left: 95px; }
 /* line 54, ../sass/_elements/_formpage.scss */
-.form-wrapper #get-in-touch label { display: block; margin-top: 20px; letter-spacing: 2px; }
+.form-wrapper #get-in-touch label { display: block; letter-spacing: 2px; margin-top: 20px; }
 /* line 60, ../sass/_elements/_formpage.scss */
-.form-wrapper #get-in-touch input, .form-wrapper #get-in-touch textarea { max-width: 300px; background: #efefef; border: 1px solid #dedede; padding: 10px; margin-top: 3px; font-size: 0.9em; color: #3a3a3a; border-radius: 5px; }
-/* line 69, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input, .form-wrapper #get-in-touch textarea { background: #efefef; border: 1px solid #dedede; border-radius: 5px; color: #3a3a3a; font-size: 0.9em; margin-top: 3px; max-width: 300px; padding: 10px; }
+/* line 70, ../sass/_elements/_formpage.scss */
 .form-wrapper #get-in-touch input:focus, .form-wrapper #get-in-touch textarea:focus { border: 1px solid #97d63b; }
-/* line 74, ../sass/_elements/_formpage.scss */
-.form-wrapper #get-in-touch textarea { height: 200px; display: block; margin-bottom: 25px; }
-/* line 81, ../sass/_elements/_formpage.scss */
-.form-wrapper #get-in-touch input#submit { height: 38px; cursor: pointer; transition: background-color, opacity, 0.8s ease; }
-/* line 85, ../sass/_elements/_formpage.scss */
-.form-wrapper #get-in-touch input#submit:hover { opacity: 0.7; background-color: #a968c7; }
+/* line 75, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch textarea { display: block; height: 200px; margin-bottom: 25px; }
+/* line 82, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input#submit { cursor: pointer; height: 38px; transition: background-color, opacity, 0.8s ease; }
+/* line 87, ../sass/_elements/_formpage.scss */
+.form-wrapper #get-in-touch input#submit:hover { background-color: #a968c7; opacity: 0.7; }
 
 /* line 2, ../sass/_elements/_error.scss */
 .error #fof { display: block; width: 100%; line-height: 1.6em; text-align: center; }
