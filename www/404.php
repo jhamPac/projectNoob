@@ -9,8 +9,8 @@
           <!-- ####################################################################################################### -->
           <img src="/public/images/404.png" alt="">
           <h1>404 Error !</h1>
-          <p>The Page You Requested Could Not Be Found On Our Server</p>
-          <p>Go Back To The <a href="javascript:history.go(-1)">Previous Page</a> <strong>OR</strong> Visit Our <a href="index.php">Homepage</a></p>
+          <p>The Page You Requested Could Not Be Found Ensure you requested only the home url of projectnoob.dev/</p>
+          <p>Go To the home page <a href="index.php">here</a>
           <div id="respond">
             <form action="#" method="post">
               <fieldset>
