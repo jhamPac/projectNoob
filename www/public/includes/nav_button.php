@@ -5,8 +5,8 @@
         <li><a href="index.php" target="_self">Home</a></li>
         <li><a href="page2.php" target="_self">Up Load with Php</a></li>
         <li><a href="page3.php" target="_self">Mysql and Php</a></li>
-        <li><a href="form_page.php" target="_self">Form Page</a></li>
+        <li><a href="page6.php" target="_self">Form Page</a></li>
         <li><a href="page4.php" target="_self">OOP with Javascript and Php</a></li>
-        <li><a href="page5.php" target="_self">?</a></li>     
+        <li><a href="page5.php" target="_self">Regex Playground</a></li>     
     </ul>
 </div>
