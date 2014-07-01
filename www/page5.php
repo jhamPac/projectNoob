@@ -8,6 +8,8 @@
                     
                     <div class="panel-heading">
                         <h1>Regex Playground</h1>
+                        <h1>&amp;</h1>
+                        <h2>Random Php Functions</h2>
                     </div>
                     
                     <div class="panel-body">
