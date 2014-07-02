@@ -13,7 +13,19 @@
                     </div>
                     
                     <div class="panel-body">
+                        <?php 
                         
+                        $find = strrpos('abcdefghijklmnopqrstuvwxyz', 2 );
+                        
+                        if( $find ) {
+                            echo 'yes thats true';
+                        }
+                        
+                        else {
+                            echo 'nope thats false';
+                        }
+                            
+                        ?>
                     </div>
                     
                     <div class="panel-footer">
