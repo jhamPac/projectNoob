@@ -15,17 +15,24 @@
                     <div class="panel-body">
                         <?php 
                         
-                        $find = strrpos('abcdefghijklmnopqrstuvwxyz', 2 );
-                        
-                        if( $find ) {
-                            echo 'yes thats true';
-                        }
-                        
-                        else {
-                            echo 'nope thats false';
-                        }
-                            
+                        $string = 'abcdefghijklmnopqrstuvwxyz';
+                        $find = strrpos( $string, 'c' );
+                          
                         ?>
+                        
+                        <?php if( $find === false ): ?>
+                            
+                            <?php echo 'Your variable was not in the string'; ?>
+                            
+                        <?php else: ?>
+                        
+                            <?php echo 'Your variable was found in the string'; ?>
+                            
+                        <?php endif; ?>
+                            
+                        <br>
+                        
+                        
                     </div>
                     
                     <div class="panel-footer">
