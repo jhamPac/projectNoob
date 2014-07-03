@@ -14,8 +14,8 @@
     
     <!-- CSS -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/public/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/chief.css">
+    <link rel="stylesheet" type="text/css" href="public/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="public/css/chief.css">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
