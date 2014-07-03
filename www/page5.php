@@ -32,20 +32,20 @@
                             
                         <br>
                         
+                        <!-- variable -->
                         <?php $reg = preg_match( '/z$/i', $string ); ?>
                         
-                            <?php if( $reg === 0 ): ?>
-                            
-                                <?php echo 'Match not found'; ?>
-                                
-                            <?php else: ?>
-                            
-                                <?php echo 'Match found yaaaay'; ?>
-                                
-                            <?php endif; ?>
-                            
+                        <!-- check if preg_match -->
+                        <?php if( $reg === 0 ): ?>
                         
+                            <?php echo 'Match not found'; ?>
+                            
+                        <?php else: ?>
                         
+                            <?php echo 'Match found yaaaay'; ?>
+                            
+                        <?php endif; ?>
+                            
                         
                     </div>
                     
