@@ -3679,15 +3679,17 @@ body { background-color: #fafafa; font-family: "Open Sans", Arial, sans-serif; p
 /* line 8, ../sass/_elements/_global.scss */
 .panel-heading h1, .panel-heading h2, .panel-heading h3 { text-align: center; }
 
-/* line 7, ../sass/_elements/_homepage.scss */
+/* line 3, ../sass/_elements/_homepage.scss */
+.homePage p.letter::first-letter { background-color: gray; color: red; font-size: 3em; }
+/* line 9, ../sass/_elements/_homepage.scss */
 .homePage a { text-decoration: none; }
-/* line 11, ../sass/_elements/_homepage.scss */
+/* line 13, ../sass/_elements/_homepage.scss */
 .homePage .testClass { color: gray; text-align: justify; }
-/* line 16, ../sass/_elements/_homepage.scss */
+/* line 18, ../sass/_elements/_homepage.scss */
 .homePage #bouncXing { border: 1px solid black; width: 50%; height: 50%; margin: 0 auto; display: block; padding: 15px; }
-/* line 26, ../sass/_elements/_homepage.scss */
+/* line 28, ../sass/_elements/_homepage.scss */
 .homePage div > h3 { margin-top: 5px; }
-/* line 31, ../sass/_elements/_homepage.scss */
+/* line 33, ../sass/_elements/_homepage.scss */
 .homePage pre { text-align: justify; white-space: normal; }
 
 /* line 3, ../sass/_elements/_pane.scss */

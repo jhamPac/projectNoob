@@ -1,7 +1,9 @@
 .homePage { 
     
-    .fly-in {
-        
+    p.letter::first-letter {
+        background-color: gray;
+        color: red;
+        font-size: 3em;
     }
     
     a {
