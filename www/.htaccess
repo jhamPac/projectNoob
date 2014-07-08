@@ -3,6 +3,6 @@ RewriteBase /
 
 #This is a rule to redirct if the user types any letters or digits after the home url
 
-RewriteRule ^/?([A-Za-z0-9])+/?$ 404.php [R=301,L]
+RewriteRule ^/?(\w)+/?$ 404.php [R=301,L]
 
 
