@@ -45,6 +45,32 @@
                             <?php echo 'Match found yaaaay'; ?>
                             
                         <?php endif; ?>
+                        
+                        <br>
+                        
+                        <div class="col-xs-12">
+                        
+                            <p>Here I am just playing around with an array</p>
+                            <?php
+                            
+                            $country = [ 
+                            
+                                'United States' => 'DC',
+                                'Canada'        => 'Ontario',
+                                'Mexico'        => 'Taco',
+                                'Germany'       => 'Munich',
+                                'Korea'         => 'Seoul'
+                             
+                            ];
+                            
+                            $country[] = ['Brazil' => 'Rio'];
+                            
+                            var_dump( $country );
+                            
+                            
+                            
+                            ?>
+                        </div>
                             
                         
                     </div>
