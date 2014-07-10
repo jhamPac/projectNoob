@@ -76,10 +76,21 @@
                             <?php 
                                 
                                 //glob returns an array of files depending on the criteria you give it, i believe its relative
-                                print_r(glob("*.php"));
-                                
+                                print_r(glob("*.php"));    
                                 
                             ?>
+                            
+                            <br>
+                            
+                            <?php 
+                            
+                            //taking the name of currnet page and stripping any forward slashes
+                            $file       =  basename($_SERVER['PHP_SELF']);
+                            $pagename   =  str_replace( ".php", "", $file );
+                            
+                            echo $pagename;
+                            
+                             ?>
                             
                             
                         </div>
