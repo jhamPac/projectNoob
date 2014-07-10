@@ -70,6 +70,18 @@
                             
                             
                             ?>
+                            
+                            <br>
+                            
+                            <?php 
+                                
+                                //glob returns an array of files depending on the criteria you give it, i believe its relative
+                                print_r(glob("*.php"));
+                                
+                                
+                            ?>
+                            
+                            
                         </div>
                             
                         
