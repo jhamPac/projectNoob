@@ -91,6 +91,18 @@
                             echo $pagename;
                             
                              ?>
+                             
+                             <br>
+                             
+                             <?php 
+                                 
+                                 //example of ternary operator
+                                 
+                                 $something = ( 2 > 1 ) ? 'yes' : 'no';
+                                 
+                                 echo $something;
+                                 
+                             ?>
                             
                             
                         </div>
