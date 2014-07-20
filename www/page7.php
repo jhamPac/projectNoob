@@ -6,7 +6,7 @@ ob_start();
 
 <html>
 <body>
-<p>Hello world!</p>
+<p>Hello world! of using ob_start</p>
 </body>
 </html>
 
