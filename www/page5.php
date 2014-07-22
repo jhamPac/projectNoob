@@ -106,6 +106,30 @@
                             
                             
                         </div>
+                        
+                        <div class="col-xs-12">
+                            <?php
+                            
+                            //looking at isset
+                            
+                            $a = 0;
+                            $b = '';
+                            
+                            if ( isset( $a ) ) {
+                                
+                                echo 'True';
+                                
+                            }
+                             
+                            else {
+                                
+                                echo 'False';
+                                
+                            } 
+                            
+                            
+                            ?>
+                        </div>
                             
                         
                     </div>
