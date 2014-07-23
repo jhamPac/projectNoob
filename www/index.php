@@ -238,7 +238,7 @@
                             
                             <audio controls>
                                 
-                                <source src="Champagne.mp3" type="audio/mpeg">
+                                <source src="/public/files/Champagne.mp3" type="audio/mpeg">
                                 
                             </audio>
                             
