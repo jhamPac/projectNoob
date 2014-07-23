@@ -234,6 +234,16 @@
                             ?>
                         </div>
                         
+                        <div class="col-xs-12">
+                            
+                            <audio controls>
+                                
+                                <source src="Champagne.mp3" type="audio/mpeg">
+                                
+                            </audio>
+                            
+                        </div>
+                        
                     </div> <!-- panel body end -->
                     
                     <div class="panel-footer">
