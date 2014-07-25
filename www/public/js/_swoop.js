@@ -4,7 +4,7 @@
     var swoop = {
         
         plane : $('.fly-in'),
-        init : function() {
+        init  : function() {
             
             swoop.plane.hide().show('slow');
         }
