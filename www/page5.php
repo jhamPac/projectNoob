@@ -125,10 +125,21 @@
                                 
                                 echo 'False';
                                 
-                            } 
-                            
+                            }
                             
                             ?>
+                            
+                            <br>
+                            
+                            <?php
+                        
+                        //just reading an object or array this is a good method to traverse it and output info    
+                        $prodclean = json_decode( json_encode( $product ), true );
+
+                        var_dump($prodclean);
+                            
+                            
+                             ?>
                         </div>
                             
                         
