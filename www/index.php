@@ -236,9 +236,21 @@
                         
                         <div class="col-xs-12">
                             
+                            
+                            <div id="player">Player not supported</div>
                             <audio controls>
                                 
-                                <source src="/public/files/Champagne.mp3" type="audio/mpeg">
+                                <source src="/public/files/Champagne.ogg" type="audio/mp3">
+                                <source src="/public/files/Champagne.ogg" type="audio/ogg">
+                                <script type="text/javascript">
+                                
+                                AudioPlayer.embed( "player", {soundFile: "http://projectnoob.dev/public/files/Champagne.mp3",
+                                    titles  : "The Player",
+                                    rightbg      : "FF9966" 
+                                });
+                                
+                                
+                            </script>
                                 
                             </audio>
                             

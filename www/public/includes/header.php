@@ -21,6 +21,15 @@
     
     <!-- modernizr script -->
     <script src="http://modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>
+    <script src="/public/js/audio-player.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+        AudioPlayer.setup( "http://projectnoob.dev/public/js/player.swf", {
+            width: 200
+        });
+        
+        
+    </script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
