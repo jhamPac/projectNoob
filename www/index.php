@@ -1,6 +1,6 @@
 <?php require( __DIR__ . '/public/includes/header.php');?>
     
-        <div class="container clearfix">
+        <div id="root" class="container clearfix">
             <div class="row homePage">
                 <div class="panel panel-default">
                     
@@ -267,16 +267,13 @@
                     
                 </div>
             </div>
-        </div>
+            
+        <div id="root-footer"></div>
         
-        <div id="root">
+    </div> <!-- end of .container #root -->
 
-    <div id="root_footer"></div>
-    
-</div>
-
-<div id="footer">
-    Footer content goes here.
-</div>
+            <div id="footer">
+                <h2>Footer content goes here.</h2>
+            </div>
 
 <?php require( __DIR__ . '/public/includes/footer.php' );?>

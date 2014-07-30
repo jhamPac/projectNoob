@@ -37,7 +37,21 @@
     
 }
 
-@include sticky-footer(150px, "#root", "#root-footer", "#footer");
+#root.container {
+    
+    #root-footer {
+        
+        height: 100px;
+    }
+    
+}
+
+#footer {
+    
+    background-color: gray;
+}
+
+@include sticky-footer(125px, "#root", "#root-footer", "#footer");
     
     
     

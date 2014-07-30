@@ -7368,6 +7368,14 @@ td.visible-print {
   text-align: justify;
   white-space: normal; }
 
+/* line 42, ../sass/_elements/_homepage.scss */
+#root.container #root-footer {
+  height: 100px; }
+
+/* line 49, ../sass/_elements/_homepage.scss */
+#footer {
+  background-color: gray; }
+
 /* line 10, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%; }
@@ -7378,16 +7386,16 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -150px; }
+  margin-bottom: -125px; }
   /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
   #root #root-footer {
-    height: 150px; }
+    height: 125px; }
 
 /* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 150px; }
+  height: 125px; }
 
 /* line 3, ../sass/_elements/_pane.scss */
 .psd .pane {
