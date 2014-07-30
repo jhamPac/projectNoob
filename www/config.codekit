@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/config.rb": {
+		"fileType": 131072,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -310,6 +319,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/js\/audio-player.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/audio-player.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/audio-player-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -402,22 +422,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/public\/sass\/_elements\/_global.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 1,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/sass\/_elements\/_global.scss",
-		"outputAbbreviatedPath": "\/public\/sass\/css\/_global.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/public\/sass\/_elements\/_homepage.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
@@ -482,15 +486,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/public\/sass\/_elements\/_variables.scss": {
+	"\/public\/sass\/_ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/sass\/_elements\/_variables.scss",
-		"outputAbbreviatedPath": "\/public\/sass\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/public\/sass\/_ie.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -530,6 +534,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/public\/sass\/_print.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_print.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_print.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/sass\/_screen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_screen.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_screen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/public\/sass\/chief.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
@@ -545,15 +581,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/public\/sass\/css\/_breakpoints.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/sass\/css\/_breakpoints.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

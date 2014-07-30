@@ -253,8 +253,7 @@
                                 
                                 }
                                 
-                                
-                            </script>
+                                </script>
                                 
                             </audio>
                             
@@ -269,5 +268,15 @@
                 </div>
             </div>
         </div>
+        
+        <div id="root">
+
+    <div id="root_footer"></div>
+    
+</div>
+
+<div id="footer">
+    Footer content goes here.
+</div>
 
 <?php require( __DIR__ . '/public/includes/footer.php' );?>

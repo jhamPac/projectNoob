@@ -1,5 +1,5 @@
-//variables
-@import "_elements/variables";
+//compass stuff
+@import "screen.scss";
 
 //import bootstrap
 @import "_bootstrap/bootstrap";
@@ -10,7 +10,6 @@
 @import "_mixins/lastwordmixins";
 
 //other sass 
-@import "_elements/global";
 @import "_elements/homepage";
 @import "_elements/pane";
 @import "_elements/formpage";
