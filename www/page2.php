@@ -1,4 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
+<?php require( __DIR__ . '/assets/includes/header.php');?>
     
          <div class="container clearfix">
             <div class="row">
@@ -9,7 +9,7 @@
                         <div class="panel-heading">
                             
                             <h1>Up Load with Php</h1>
-                            <?php require( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                            <?php require( __DIR__ . '/assets/includes/nav_button.php' ); ?>
                             
                         </div>
                         
@@ -57,5 +57,5 @@
             </div>
         </div>
                 
-<?php require( __DIR__ . '/public/includes/footer.php' );?>
+<?php require( __DIR__ . '/assets/includes/footer.php' );?>
         

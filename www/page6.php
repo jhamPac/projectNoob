@@ -5,7 +5,7 @@
     
 } ?>
 
-<?php require( __DIR__ . '/public/includes/header.php' );?>
+<?php require( __DIR__ . '/assets/includes/header.php' );?>
         
         <div class="container-fluid clearfix">
             <div class="row banner">
@@ -14,7 +14,7 @@
                     <h1>Php Form Handling</h1>
                 </div>
                 
-                <?php require( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                <?php require( __DIR__ . '/assets/includes/nav_button.php' ); ?>
             
                 
             </div>
@@ -64,5 +64,5 @@
             </div>
         </div>  
        
-<?php require( __DIR__ . '/public/includes/footer.php' );?>
+<?php require( __DIR__ . '/assets/includes/footer.php' );?>
         

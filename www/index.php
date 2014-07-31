@@ -1,4 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
+<?php require( __DIR__ . '/assets/includes/header.php');?>
     
         <div id="root" class="container clearfix">
             <div class="row homePage">
@@ -11,7 +11,7 @@
                             <h3>A guide for Level 1 and +</h3>
                         </div>
                         
-                        <?php require( __DIR__ . '/public/includes/nav_button.php' ); ?>
+                        <?php require( __DIR__ . '/assets/includes/nav_button.php' ); ?>
                         
                     </div>
                     
@@ -40,7 +40,7 @@
                             <span><?php $date = new DateTime('April 10, 2014'); echo $date->format('M/d/Y'); ?></span>
                             <h3>PHP Level 1</h3>
                             <p>This really helps with understanding php:<br> <a href='http://stackoverflow.com/questions/3738572/how-to-include-file-from-another-directory' target='_blank'>$_SEVER[ 'DOCUMENT_ROOT' ]</a></p>
-                            <?php require($_SERVER['DOCUMENT_ROOT'] . '/public/includes/link.php'); ?> 
+                            <?php require($_SERVER['DOCUMENT_ROOT'] . '/assets/includes/link.php'); ?> 
                             <?php 
                                 
                                 $_HOEBAG = "Used require to place this click me"; //created my own superglobal
@@ -130,7 +130,7 @@
                             ?>
 
                             <p>Above are the results of these commands along with the class. Also I used <a href="http://formatmysourcecode.blogspot.com/" target="_blank">Format My Source Code </a>for the blocks of code. This tut about PHP <a href="http://www.killerphp.com/tutorials/object-oriented-php/" target="_blank">OPP </a>is what I used to learn with.</p>
-                            <pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>&lt;?php require($_SERVER['DOCUMENT_ROOT'] . '/public/files/class_lib.php');
+                            <pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>&lt;?php require($_SERVER['DOCUMENT_ROOT'] . '/assets/files/class_lib.php');
                             
                                     $user1 = new person(&quot;Buzz&quot;, 6);
                                     $employ1 = new employee( &quot;BoyMan&quot;, 5 );
@@ -238,14 +238,14 @@
                             
                             <audio id="player" controls>
                                 
-                                <source src="/public/files/Champagne.ogg" type="audio/mp3">
-                                <source src="/public/files/Champagne.ogg" type="audio/ogg">
+                                <source src="/assets/files/Champagne.ogg" type="audio/mp3">
+                                <source src="/assets/files/Champagne.ogg" type="audio/ogg">
                                 
                                 <script type="text/javascript">
                                 
                                 var audioTag = document.createElement('audio');
                                 if (!(!!(audioTag.canPlayType) && ("no" != audioTag.canPlayType("audio/mpeg")) && ("" != audioTag.canPlayType("audio/mpeg")))) {
-                                AudioPlayer.embed( "player", {soundFile: "http://projectnoob.dev/public/files/Champagne.mp3",
+                                AudioPlayer.embed( "player", {soundFile: "http://projectnoob.dev/assets/files/Champagne.mp3",
                                     titles      : "The Player",
                                     rightbg     : "FF9966",
                                     righticon   : "FFFFFF"
@@ -276,4 +276,4 @@
                 <h2>Footer content goes here.</h2>
             </div>
 
-<?php require( __DIR__ . '/public/includes/footer.php' );?>
+<?php require( __DIR__ . '/assets/includes/footer.php' );?>

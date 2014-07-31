@@ -1,4 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
+<?php require( __DIR__ . '/assets/includes/header.php');?>
 
     <div class="container clearfix">
         <div class="row">
@@ -156,4 +156,4 @@
     </div> <!-- container end -->
 
 
-<?php require( __DIR__ . '/public/includes/footer.php' );?>
+<?php require( __DIR__ . '/assets/includes/footer.php' );?>

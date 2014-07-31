@@ -16,15 +16,15 @@
     
     <!-- CSS -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="public/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="public/css/chief.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/chief.css">
     
     <!-- modernizr script -->
     <script src="http://modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>
-    <script src="/public/js/audio-player.js" type="text/javascript"></script>
+    <script src="/assets/js/audio-player.js" type="text/javascript"></script>
     <script type="text/javascript">
         
-        AudioPlayer.setup( "http://projectnoob.dev/public/js/player.swf", {
+        AudioPlayer.setup( "http://projectnoob.dev/assets/js/player.swf", {
             width: 200
         });
         
