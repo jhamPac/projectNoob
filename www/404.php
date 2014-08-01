@@ -1,4 +1,4 @@
-<?php require( __DIR__ . '/public/includes/header.php');?>
+<?php require( __DIR__ . '/assets/includes/header.php');?>
     <div class="wrapper error">
       <div id="container" class="clear">
         <!-- ####################################################################################################### -->
@@ -7,7 +7,7 @@
         <!-- ####################################################################################################### -->
         <section id="fof" class="clear">
           <!-- ####################################################################################################### -->
-          <img src="/public/images/404.png" alt="">
+          <img src="/assets/images/404.png" alt="">
           <h1>404 Error !</h1>
           <p>The Page You Requested Could Not Be Found Ensure you requested only the home url of projectnoob.dev/</p>
           <p>Go To the home page <a href="index.php">here</a>
@@ -28,4 +28,4 @@
         <!-- ####################################################################################################### -->
       </div>
     </div>
-<?php require( __DIR__ . '/public/includes/footer.php' );?>
+<?php require( __DIR__ . '/assets/includes/footer.php' );?>

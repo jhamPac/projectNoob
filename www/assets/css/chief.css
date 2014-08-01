@@ -7505,13 +7505,14 @@ html, body {
     .form-wrapper #get-in-touch textarea {
       display: block;
       height: 200px;
-      margin-bottom: 25px; }
-    /* line 82, ../sass/_elements/_formpage.scss */
+      margin-bottom: 25px;
+      background: url('/assets/images/bg_patt.jpg?1401392672'); }
+    /* line 83, ../sass/_elements/_formpage.scss */
     .form-wrapper #get-in-touch input#submit {
       cursor: pointer;
       height: 38px;
       transition: background-color, opacity, 0.8s ease; }
-      /* line 87, ../sass/_elements/_formpage.scss */
+      /* line 88, ../sass/_elements/_formpage.scss */
       .form-wrapper #get-in-touch input#submit:hover {
         background-color: #a968c7;
         opacity: 0.7; }
