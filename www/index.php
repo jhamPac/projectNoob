@@ -259,6 +259,18 @@
                             
                         </div>
                         
+                        <div class="col-xs-12">
+                            
+                            <div class="json">
+                                
+                                <button class="json_click">Click</button>
+                                <textarea></textarea> 
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        
                     </div> <!-- panel body end -->
                     
                     <div class="panel-footer">
