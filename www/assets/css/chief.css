@@ -65,15 +65,26 @@ html {
   font-size: 100%;
   line-height: 1.5em; }
 
-/* line 31, ../sass/_screen.scss */
+/* line 32, ../sass/_screen.scss */
 body {
   background-color: #fafafa;
   font-family: "Open Sans", Arial, sans-serif;
   padding-top: 15px; }
 
-/* line 38, ../sass/_screen.scss */
+/* line 39, ../sass/_screen.scss */
 .panel-heading h1, .panel-heading h2, .panel-heading h3 {
   text-align: center; }
+
+/* line 44, ../sass/_screen.scss */
+.zero {
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -moz-background-size: 100% 1.5em;
+  -o-background-size: 100% 1.5em;
+  -webkit-background-size: 100% 1.5em;
+  background-size: 100% 1.5em;
+  background-position: left top; }
 
 /*!
  * Bootstrap v3.0.3 (http://getbootstrap.com)
